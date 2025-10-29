@@ -4,7 +4,7 @@ let word = prompt("Entrez un mot: ")
 
 function letterCounter(word){
     let vowels = "aeuoi"
-    let counter
+    let counter = 0
     for(let i of word.toLowerCase()){
         if (vowels.includes(i)) {
             counter++
